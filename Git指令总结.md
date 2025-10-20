@@ -26,7 +26,7 @@
 
 5\. git checkout <分支名>  
 
-&nbsp;  功能：切换到指定分支；例如从main分支切换到LXT分支，命令为 `git checkout LXT`；若想“创建并同时切换分支”，可合并为 `git checkout -b <新分支名>`（即你之前执行的 `git checkout -b LXT`）。
+&nbsp;  功能：切换到指定的本地分支，例如切换到LXT分支的命令为`git checkout LXT`；若需“创建并同时切换分支”，可使用`git checkout -b <新分支名>`（如你之前创建LXT分支的命令）。
 
 
 
