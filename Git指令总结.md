@@ -8,13 +8,13 @@
 
 2\. git commit -m "提交备注"  
 
-&nbsp;  功能：将暂存区的修改提交到“本地仓库”；`-m` 是必填参数，用于添加清晰的提交说明（如“添加git add与git commit指令及说明”），避免提交后无法识别修改内容。
+&nbsp;  功能：将暂存区的修改提交到“本地仓库”；`-m` 是必填参数，用于添加清晰的提交说明（如“添加git add与git commit指令及说明”），避免提交后无法识别修改内容，这个需要格外注意。
 
 
 
 3\. git push origin <分支名>  
 
-&nbsp;  功能：将本地分支的提交推送到“远程仓库”（即你Fork的GitHub个人副本仓库）；例如推送LXT分支到远程，命令为 `git push origin LXT`。
+&nbsp;  功能：将本地分支的提交推送到“远程仓库”（即你Fork的GitHub个人副本仓库）；例如推送LXT分支到远程，命令为 `git push origin LXT`，origin 是远程别名。
 
 
 
